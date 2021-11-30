@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+</head>
+<body>
+       
+
+
+<h1>Registration Form.</h1>
+<forms action="/action_page.php" method="post">
+       <label for="f.name"> Position:</label>
+       <select name="Position" size="3"
+       multiple="multiple">
+       <option value="principle" selected="selected">
+       Principle</option>
+       <option value="vice principle">Vice principle</option>
+       <option value="Teacher"selected="selected">Teacher</option>
+       <option value="assitent teacher">Assitent Teacher</option>
+       </select><br><br>
+       
+       <label for="a.name"> Applicant Name:</label>
+       <input type ="text" id="aname" name="aname"/> <br><br>
+        <label for="f.name"> e.mail:</label>
+       <input type ="text" id="ename" name="ename"/> <br><br>
+        <label for="cname"> Contact.no:</label>
+       <input type ="text" id="cname" name="cname"/> <br><br>
+        <label for="dname"> D.O.B:</label>
+       <input type ="text" id="dname" name="dname"/> <br><br>
+       <label>Age: <input type="text" name="age" /></label><br/><br/>
+       Gender:
+       <input id="female" type="radio" name="gender"
+       value="f">
+       <label for="female">Female</label>
+       <input id="male" type="radio" name="gender"value="m">
+       <label for="male">Male</label>
+
+      <p> <h3>Education Details:</h3></p><hr>
+        <label for="q.name">Qulification:</label>
+        <input type="checkbox" name="service"
+       value="Maticulation" checked="checked" />Maticulation
+       <input type="checkbox" name="service"
+       value="Intermediate" /> Intermediate
+       <input type="checkbox" name="service"
+       value="graduation" /> Graduation
+       <input type="checkbox" name="service"
+       value="master" /> Master
+        <br><br>
+        <label for="f.name"> Resume:</label>
+       <input type ="text" id="rname" name="rname"/> <br><br>
+        <label for="e.name"> Expreiance:</label>
+       <input type ="text" id="ename" name="ename"/> <br><br>
+       <label for="r.name">Remarks:</label>
+       <input type ="text" id="rname" name="rname"/> <br><br>
+       <input type="submit" value="submit">
+</form>
+</body>
+</html>
